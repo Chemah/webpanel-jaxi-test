@@ -502,7 +502,6 @@ export default class Details extends Component {
                                                   selectedProject: selectedProject
                                              })
                                         }}/>
-                              <UncontrolledTooltip placement="left" target="description" value={this.state.selectedProject.str_description}> Descríbelo adecuadamente </UncontrolledTooltip>
                          </FormGroup>
                          <br />
                          <Row>
@@ -539,6 +538,7 @@ export default class Details extends Component {
                     </div>
                     <Row>
                          <Col md="6">
+                         <h5>Usuarios involucrados</h5>
                          <Row style={{ marginBottom: "10pt", marginTop: "10pt" }}>
                                         <Col>
                                              <Button color="success"
@@ -554,6 +554,7 @@ export default class Details extends Component {
                               />
                          </Col>
                          <Col md="6">
+                              <h5>Tareas</h5>
                               <Row style={{ marginBottom: "10pt", marginTop: "10pt" }}>
                                         <Col>
                                              <Button color="success"
